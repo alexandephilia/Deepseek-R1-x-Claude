@@ -75,9 +75,9 @@ async def reason(query: dict) -> str:
         reasoning = await get_deepseek_response(full_query)
         
         # Return the reasoning wrapped in ant_thinking tags
-        return f"<ant_thinking>\n{reasoning}\n</ant_thinking>"
+        return f"<ant_thinking>\n{reasoning}\n</ant_thinking>\n\nnow we should provide our final answer based on the above thinking"
     except Exception as e:
-        return f"<ant_thinking>\nError: {str(e)}\n</ant_thinking>"
+        return f"<reasoning_error>\nError: {str(e)}\n</reasoning_error>\n\nexplain the error"
 
 if __name__ == "__main__":
     mcp.run()
