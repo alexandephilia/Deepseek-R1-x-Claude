@@ -1,6 +1,14 @@
 # 🧠 DeepSeek R1 Reasoning Executor
 
-A fucking powerful MCP server that supercharges Claude with DeepSeek R1's state-of-the-art reasoning capabilities. This isn't your grandmother's reasoning engine - it's a cognitive powerhouse that emerged from large-scale reinforcement learning to deliver structured, multi-step logical analysis.
+A powerful MCP server that enhances Claude's capabilities by integrating DeepSeek R1's cutting-edge reasoning engine. This advanced system combines:
+
+- Large-scale reinforcement learning that naturally emerges complex reasoning patterns
+- Multi-step logical analysis with structured cognitive frameworks
+- Real-time streaming of reasoning processes with confidence metrics
+- Systematic decomposition of problems into analyzable components
+- Robust error detection and metacognitive monitoring
+
+The server acts as a cognitive co-processor, augmenting Claude's base capabilities with DeepSeek R1's specialized reasoning architecture to deliver comprehensive analytical insights.
 
 ## 🚀 Core Capabilities
 
@@ -61,8 +69,8 @@ A fucking powerful MCP server that supercharges Claude with DeepSeek R1's state-
 ### Quick Setup
 ```bash
 # Clone this cognitive powerhouse
-git clone https://github.com/yourusername/deepseek-r1-executor.git
-cd deepseek-r1-executor
+git clone https://github.com/alexandephilia/Deepseek-R1-x-Claude.git
+cd Deepseek-R1-x-Claude
 
 # Set up dependencies
 pip install "mcp[cli]" httpx python-dotenv
@@ -156,4 +164,3 @@ MIT License - See [LICENSE](LICENSE)
 - [DeepSeek R1](https://github.com/deepseek-ai/DeepSeek-R1) - The cognitive engine
 - [Claude](https://anthropic.com/claude) - The execution platform
 - [MCP Protocol](https://github.com/mcp-lang/mcp) - The integration layer
-# Deepseek-R1-x-Claude
