@@ -1,14 +1,29 @@
 # 🧠 DeepSeek R1 Reasoning Executor
 
-A powerful MCP server that enhances Claude's capabilities by integrating DeepSeek R1's cutting-edge reasoning engine. This advanced system combines:
+A powerful cognitive architecture that combines DeepSeek R1 as the primary reasoning planner with Claude as the execution engine. In this system:
 
+- **DeepSeek R1 (The Brain)** acts as the advanced reasoning planner:
+  - Plans multi-step logical analysis strategies
+  - Structures cognitive frameworks
+  - Evaluates confidence and uncertainty
+  - Monitors reasoning quality
+  - Detects edge cases and biases
+
+- **Claude (The Executor)** implements the reasoning plans:
+  - Executes the structured analysis
+  - Implements planned strategies
+  - Delivers final responses
+  - Handles user interaction
+  - Manages system integration
+
+This planner-executor architecture leverages:
 - Large-scale reinforcement learning that naturally emerges complex reasoning patterns
 - Multi-step logical analysis with structured cognitive frameworks
 - Real-time streaming of reasoning processes with confidence metrics
 - Systematic decomposition of problems into analyzable components
 - Robust error detection and metacognitive monitoring
 
-The server acts as a cognitive co-processor, augmenting Claude's base capabilities with DeepSeek R1's specialized reasoning architecture to deliver comprehensive analytical insights.
+The server acts as a cognitive bridge, using DeepSeek R1's specialized reasoning architecture to plan complex analytical strategies that Claude then executes with precision.
 
 ## 🚀 Core Capabilities
 
